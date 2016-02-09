@@ -1,0 +1,17 @@
+package protoconf;
+
+option java_package         = "com.server.classload.packetproto";
+option java_outer_classname = "PacketSet";
+
+message BasePacket {
+    optional int32 packetId = 1 [default = 0];
+    optional bytes packetData = 2;
+}
+
+message NamePacket {
+    optional string name = 1 [default = "name"];
+}
+
+message AgePacket {
+    optional int32 age = 1 [default = 10];
+}
