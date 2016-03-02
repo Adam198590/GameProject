@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="672.0324074074075" y="158.27546296296293">com.server.classload.packetloader.impl.AgePacketLoader</node>
+    <node x="-79.80092592592587" y="118.0810185185185">com.server.ServerInitializer</node>
+    <node x="-88.80092592592587" y="-90.4189814814815">com.server.ServerHandler</node>
+    <node x="-144.55092592592587" y="265.5810185185185">com.server.ServerStarter</node>
+    <node x="210.0324074074075" y="-140.22453703703707">com.server.classload.PacketFactory</node>
+    <node x="-151.05092592592587" y="383.5810185185185">com.startpoint.Main</node>
+    <node x="634.3356481481482" y="337.72685185185196">com.util.BaseUtil</node>
+    <node x="749.0324074074075" y="-81.22453703703707">com.server.classload.packetloader.PacketLoader</node>
+    <node x="476.0324074074075" y="158.27546296296293">com.server.classload.packetloader.impl.NamePacketLoader</node>
+    <node x="325.2384259259259" y="279.69675925925935">com.conf.ClassLoadConfig</node>
+    <node x="59.043981481481524" y="281.24768518518516">com.conf.NetworkConfig</node>
+    <node x="-288.80092592592587" y="87.5810185185185">com.server.classload.ClassLoadManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.server.classload.PacketFactory" target="com.server.classload.packetloader.PacketLoader">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.startpoint.Main" target="com.server.ServerStarter">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.server.ServerInitializer" target="com.server.ServerHandler">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.server.ServerStarter" target="com.server.ServerInitializer">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="com.server.classload.packetloader.impl.AgePacketLoader" target="com.server.classload.packetloader.PacketLoader">
+      <point x="0.0" y="-34.0" />
+      <point x="0.0" y="54.5" />
+    </edge>
+    <edge source="com.server.classload.packetloader.impl.NamePacketLoader" target="com.server.classload.packetloader.PacketLoader">
+      <point x="0.0" y="-34.0" />
+      <point x="564.0324074074075" y="52.77546296296293" />
+      <point x="784.3657407407409" y="52.77546296296293" />
+      <point x="-70.66666666666669" y="54.5" />
+    </edge>
+    <edge source="com.server.ServerStarter" target="com.server.classload.ClassLoadManager">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="390.0" y="188.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
